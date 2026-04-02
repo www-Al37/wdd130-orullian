@@ -1,0 +1,86 @@
+/* Pretty much just copy of main styles */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(
+        to bottom,
+        #8fa79a,
+        #5f7468,
+        #2f3f38
+    );
+}
+
+.page {
+    max-width: 1000px;
+    margin: 40px auto;
+    background: #f4f1e8;
+    box-shadow: 0 0 30px rgba(0,0,0,0.25);
+}
+
+header {
+    text-align: center;
+    padding: 30px 20px 10px;
+}
+
+.logo {
+    width: 140px;
+    height: 140px;
+    margin: auto;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+nav {
+    margin-top: 20px;
+    padding: 12px 0;
+    background: #d8cfaa;
+}
+
+nav a {
+    margin: 0 25px;
+    text-decoration: none;
+    color: #2f3f38;
+    font-weight: bold;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+.quote {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: rgba(255,255,255,0.9);
+    padding: 20px 30px;
+    font-size: 26px;
+    border-radius: 6px;
+}
+
+.home-text {
+    padding: 50px 40px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    border-top: 1px solid #ccc;
+    font-size: 14px;
+}
