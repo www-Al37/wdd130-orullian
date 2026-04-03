@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 
-    /* Full background (outside the card) */
+    /* Full background*/
     background: linear-gradient(
         to bottom,
         #8fa79a,
@@ -27,7 +27,7 @@ header {
     padding: 30px 20px 10px;
 }
 
-/* BIGGER LOGO (fixed properly) */
+/* BIGGER LOGO  */
 .logo {
     width: 140px;
     height: 140px;
@@ -42,7 +42,7 @@ header {
 }
 
 
-/* NAVBAR (like your reference strip) */
+/* NAVBAR */
 nav {
     margin-top: 20px;
     padding: 12px 0;
