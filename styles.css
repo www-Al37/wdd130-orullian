@@ -27,7 +27,7 @@ header {
     padding: 30px 20px 10px;
 }
 
-/* BIGGER LOGO  */
+
 .logo {
     width: 140px;
     height: 140px;
@@ -42,20 +42,35 @@ header {
 }
 
 
-/* NAVBAR */
+/* NAVBAR CONTAINER */
 nav {
-    margin-top: 20px;
-    padding: 12px 0;
+    margin-top: 10px;
+    padding: 15px 100px; 
     background: #d8cfaa;
+    border-radius: 80px; 
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
+/* NAV LINKS */
 nav a {
-    margin: 0 25px;
+    margin: 0 40px; 
     text-decoration: none;
     color: #2f3f38;
     font-weight: bold;
+    font-size: 22px; 
+    padding: 12px 55px; 
+    display: inline-block;
+    border-radius: 40px; 
 }
 
+/* CIRCLE THING */
+nav a.active {
+    background: #f4f1e8;
+    border: 2px solid #2f3f38;
+}
 
 /* HERO */
 .hero {
@@ -67,25 +82,31 @@ nav a {
     display: block;
 }
 
-/* QUOTE */
 .quote {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
     background: rgba(255,255,255,0.9);
     padding: 20px 30px;
     font-size: 26px;
     border-radius: 6px;
+    width: fit-content;
 }
 
 
-/* TEXT */
 .home-text {
-    padding: 50px 40px;
+    padding: 60px 50px;
     text-align: center;
-    line-height: 1.6;
+    line-height: 1.7;
+    max-width: 850px; 
+    margin: 0 auto;
+}
+
+.home-text p {
+    font-size: 24px; 
+    color: #2f3f38;
+    margin-bottom: 25px;
 }
 
 footer {
